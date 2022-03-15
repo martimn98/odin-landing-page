@@ -52,7 +52,6 @@ body > * {
 .section-one {
     color:#e5e7eb;
     display: flex;
-    align-items: stretch;
     justify-content: space-between;
     gap: 48px;
 }
@@ -60,7 +59,8 @@ body > * {
 .image-placeholder {
     background-color: #6d747d;
     display: flex;
-    width: 500px;
+    width: 650px;
+    height: 200px;
     flex-shrink: 0;
 }
 
@@ -87,16 +87,23 @@ body > * {
     color: #e5e7eb;
 }
 
-button {
+.sign-up-button {
     background-color: #3882f6;
     color: #f9faf8;
     font-size: 18px;
-    font-weight: 900;
+    font-weight: bold;
     border-radius: 8px;
-    width: 130px;
+    width: 120px;
     padding: 8px;
     margin-top: 8px;
     border-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.sign-up-button:hover{
+    background-color: #ffffff;
+    color: #3882f6;
 }
 
 .section-two{
